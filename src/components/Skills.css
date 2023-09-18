@@ -8,3 +8,15 @@
     height:40rem;
     background-color: var(--second-bg-color);
 }
+.skills {
+    color: var(--text-color);
+    font-size: 3rem;
+    font-family: sans-serif;
+    font-weight: 800;
+    letter-spacing: 0.2rem;
+    word-spacing: 0.7rem;
+    border-bottom: 0.3rem solid lightblue;
+    width: min-content;
+    text-align: center; /* Center the text horizontally */
+    margin: 3rem auto; /* Center the element within its parent container */
+}
