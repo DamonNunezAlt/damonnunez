@@ -1,11 +1,22 @@
 import Navbar from "./components/Navbar";
 import './App.css'
+import Home from "./components/Home";
+import AboutMe from "./components/AboutMe";
+import Skills from "./components/Skills";
 function App() {
   return (
+    
     <div className="page">
       <Navbar/>
-      <h1> Welcome to New Portfolio </h1>
-    </div>
+      <div id="stars"></div>
+      <div id="stars2"></div>
+      <div id="stars3"></div>
+      <Home/>
+      <AboutMe/>
+      <Skills/>
+      
+      </div>
+
   );
 }
 

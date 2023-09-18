@@ -1,0 +1,49 @@
+:root {
+    --bg-color: #081b29;
+    --second-bg-color:#112e42;
+    --text-color:white;
+    --main-color:rgb(0, 187, 250);
+}
+.aboutMeSection {
+    height:auto;
+    background-color: var(--second-bg-color);
+}
+.aboutMe {
+    color: var(--text-color);
+    font-size: 3rem;
+    font-family: sans-serif;
+    font-weight: 800;
+    letter-spacing: 0.2rem;
+    word-spacing: 0.7rem;
+    border-bottom: 0.3rem solid lightblue;
+    width: min-content;
+    text-align: center; /* Center the text horizontally */
+    margin: 2rem auto; /* Center the element within its parent container */
+}
+.border1, .border2, .border3 {
+    height:auto;
+    
+}
+.sectionTitle {
+   display: flex;
+   justify-content: center;
+   color:aqua;
+    font-size:2rem;
+    font-weight: 800;
+    font-family: sans-serif;
+    margin:2.5rem auto;
+    width:min-content;
+}
+.sectionParagraph {
+    display: flex;
+    justify-content: center;
+    color:var(--text-color);
+    font-size:.9rem;
+    font-weight: 800;
+    font-family:sans-serif;
+    margin:0 auto;
+    padding:.4rem;
+    width:auto;
+    border: .3rem solid lightblue;
+    border-radius:.7rem;
+}
