@@ -21,20 +21,68 @@
     margin: 3rem auto; /* Center the element within its parent container */
 }
 .outerBorder {
-    height:20rem;
+    height:auto;
     display: block;
     margin:0 auto;
     border: 2px solid transparent; /* Add a transparent border */
     box-shadow: 0 0 10px 5px white; /* Apply a glowing white shadow */
-    width:80%;
+    width:85%;
     border-radius:.8rem;
 }
 .skillType {
-    display:flex;
-    justify-content: center;
-    font-size:1.6rem;
-    font-weight: 800;
+        display: flex;
+        justify-content: center;
+        color:transparent;
+         font-size:1.7rem;
+         font-weight: 800;
+         font-family: sans-serif;
+         width:auto;
+         margin: 0 auto;
+         -webkit-text-stroke: #fff;
+         -webkit-text-stroke-width: 1px;
+         text-shadow: 2px 2px 10px aqua; /* Adds a text shadow with a blue color */
+         transition: all 0.5s ease-in-out; /* Adds a smooth transition effect */
+         letter-spacing: 0.2em;
+         transition: 0.2s;
+         animation: flicker 0.5s ease-in-out infinite alternate; /* Applies the flicker animation */
+     
+         &:hover {
+             color: #fff; /* Changes the text color to white on hover */
+         }
+     }
+     .skillType:hover {
+        transform: scale(1.2);
+        opacity: 1;
+     }
+     
+     @keyframes flicker {
+         0% {
+             opacity: 0.5;
+             text-shadow: 2px 2px 10px aqua;
+         }
+         100% {
+             opacity: 1;
+             text-shadow: 2px 2px 20px aqua;
+         }
+     }
+.iconic-container {
+    display: flex;
+    justify-content: space-around; /* Use flexbox to arrange items horizontally */
+  }
+  
+  .iconic {
+    margin-right: 20px; /* Add some margin between icon-caption pairs */
+    text-align: center; /* Center align the text */
+  }
+.caption {
+    display: block;
+    margin:0 auto;
+    color:white;
+    text-align: center;
+    letter-spacing: 0.2em;
+    font-size:1rem;
     font-family: sans-serif;
-    color:aqua;
+    font-weight: 800;
 
 }
+  

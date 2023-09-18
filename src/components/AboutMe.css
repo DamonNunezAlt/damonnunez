@@ -40,10 +40,15 @@
 	text-align: center;
 	letter-spacing: 0.2em;
 	animation: flicker 0.5s ease-in-out infinite alternate; /* Applies the flicker animation */
+    transition: 0.2s;
 
 	&:hover {
 		color: #fff; /* Changes the text color to white on hover */
 	}
+}
+.sectionTitle:hover {
+    transform: scale(1.2);
+    opacity: 1;
 }
 
 @keyframes flicker {
