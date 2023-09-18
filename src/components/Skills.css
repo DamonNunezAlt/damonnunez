@@ -20,3 +20,21 @@
     text-align: center; /* Center the text horizontally */
     margin: 3rem auto; /* Center the element within its parent container */
 }
+.outerBorder {
+    height:20rem;
+    display: block;
+    margin:0 auto;
+    border: 2px solid transparent; /* Add a transparent border */
+    box-shadow: 0 0 10px 5px white; /* Apply a glowing white shadow */
+    width:80%;
+    border-radius:.8rem;
+}
+.skillType {
+    display:flex;
+    justify-content: center;
+    font-size:1.6rem;
+    font-weight: 800;
+    font-family: sans-serif;
+    color:aqua;
+
+}

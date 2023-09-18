@@ -12,6 +12,18 @@ const Skills = () => {
                     </div>
                 </Col>
             </Row>
+            <Row>
+                <Col sm={12} md={12} lg={6}>
+                <div className='outerBorder'>
+                    <h1 className='skillType'>Front-End!</h1>
+                </div>
+                </Col>
+                <Col sm={12} md={12} lg={6}>
+                    <div className='outerBorder'>
+
+                    </div>
+                </Col>
+            </Row>
         </Container>
     </div>
   )

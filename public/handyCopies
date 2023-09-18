@@ -1,1 +1,12 @@
-<a href='https://www.marcylabschool.org/'> Marcy Lab School, </a> 
+ /* <a href='https://www.marcylabschool.org/'> Marcy Lab School, </a> 
+
+.headerCaption {
+    font-size:2.5rem;
+    font-weight: 300;
+    -webkit-text-fill-color: transparent; /* Set text fill color to transparent 
+    -webkit-text-stroke: 2px lightgreen; /* Width and color of the text stroke 
+    color: transparent; 
+    display: flex;
+    justify-content: left;
+}
+
