@@ -72,7 +72,8 @@
   
   .iconic {
     margin-right: 20px; /* Add some margin between icon-caption pairs */
-    text-align: center; /* Center align the text */
+    text-align: center;
+    padding:.8rem; /* Center align the text */
   }
 .caption {
     display: block;
