@@ -7,6 +7,10 @@
 .homeSection {
     background-color: var(--second-bg-color);
 }
+.homeLink {
+    color:black;
+    outline:none;
+}
 
 .col1, .col2{
     width:100%;

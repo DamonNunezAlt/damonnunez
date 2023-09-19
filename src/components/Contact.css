@@ -1,0 +1,46 @@
+:root {
+    --bg-color: #081b29;
+    --second-bg-color:#112e42;
+    --text-color:white;
+    --main-color:rgb(0, 187, 250);
+}
+.contactSection {
+    background-color: var(--second-bg-color);
+    height:30rem;
+}
+.contact {
+    color: var(--text-color);
+    font-size: 2.5rem;
+    font-family: sans-serif;
+    font-weight: 800;
+    letter-spacing: 0.2rem;
+    word-spacing: 0.7rem;
+    border-bottom: 0.3rem solid lightblue;
+    width: max-content;
+    text-align: center; /* Center the text horizontally */
+    margin:3rem auto;
+    /* Center the element within its parent container */
+}
+.iconic-container {
+    display: flex;
+    justify-content: center;
+    padding:2rem;
+}
+.clickableIcon {
+    cursor: pointer;
+    transition: 0.4s;
+}
+.clickableIcon:hover, .iconic:hover{
+    transform: scale(1.2);
+    opacity: 0.8;
+}
+.hiddenCaption {
+    display: block;
+    margin:0 auto;
+    color:white;
+    text-align: center;
+    letter-spacing: 0.2em;
+    font-size:.9rem;
+    font-family: sans-serif;
+    font-weight: 800;
+}
