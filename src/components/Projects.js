@@ -3,7 +3,6 @@ import './Projects.css'
 import {Row,Col,Container, CardImg} from 'react-bootstrap'
 import {Fade} from 'react-reveal'
 import { Card } from 'react-bootstrap'
-import ClarexiaNews from '../images/ClarexiaNews.png'
 import {BiLogoHtml5} from 'react-icons/bi'
 import {BiLogoCss3} from 'react-icons/bi'
 import {BiLogoJavascript} from 'react-icons/bi'
@@ -14,7 +13,9 @@ import {SiAxios} from 'react-icons/si'
 import {BiTrain} from 'react-icons/bi'
 import {BiLogoNodejs} from 'react-icons/bi'
 import {BiLogoPostgresql} from 'react-icons/bi'
-import { Link } from 'react-router-dom'
+import Starbucks from '../images/Starbucks.png'
+import DreamyCafe from '../images/DreamyCafe.png'
+import ClarexiaNews from '../images/ClarexiaNews.png'
 const Projects = () => {
   return (
     <div className='projectsSection'>
@@ -94,12 +95,104 @@ const Projects = () => {
                 </Col>
                 <Col sm={12} md={12} lg={4}>
                     <div className='projectCardBorder'>
-                    
+                    <Card className='projectCard'>
+                        <CardImg className='projectCardImage' src={Starbucks}/>
+                        <Card.Body className='projectCardBody'>
+                            <Card.Title className='projectCardTitle'> Starbucks Clone! </Card.Title>
+                            <Card.Text className='projectCardText'>
+                            Technologies Used:
+                            </Card.Text>
+                            <div className='iconic-container'>
+                                <div className='iconic'>
+                                <BiLogoHtml5 size='3rem' color='darkorange'/>
+                                    <p className='caption'>
+                                    HTML5
+                                    </p>
+                                </div>
+                                <div className='iconic'>
+                                    <BiLogoCss3 size='3rem' color='blue'/>
+                                    <p className='caption'>
+                                        CSS
+                                    </p>
+                                </div>
+                                <div className='iconic'>
+                                    <BiLogoJavascript size='3rem' color='yellow'/>
+                                    <p className='caption'>
+                                        JavaScript
+                                    </p>
+                                </div>
+                            </div>
+                            <div className='iconic-container'>
+                                <div className='iconic'>
+                                    <BiLogoReact size='3rem' color='lightblue'/>
+                                    <p className='caption'>
+                                        React
+                                    </p>
+                                </div>
+                                <div className='iconic'>
+                                    <BiLogoBootstrap size='3rem' color='purple'/>
+                                    <p className='caption'>
+                                        Bootstrap
+                                    </p>
+                                </div>
+                            </div>
+
+
+                            <div className='buttonZone'>
+                    <button className='btn' onClick={() => window.open('https://brilliant-biscotti-6fe10d.netlify.app/')}>Live Code!</button>
+                    </div>
+                        </Card.Body>
+                    </Card>
                 </div>
                 </Col>
                 <Col sm={12} md={12} lg={4}>
                 <div className='projectCardBorder'>
-                    
+                    <Card className='projectCard'>
+                        <CardImg className='projectCardImage' src={DreamyCafe}/>
+                        <Card.Body className='projectCardBody'>
+                            <Card.Title className='projectCardTitle'> Dreamy Cafe!</Card.Title>
+                            <Card.Text className='projectCardText'>
+                                Technologies Used:
+                            </Card.Text>
+                            <div className='iconic-container'>
+                                <div className='iconic'>
+                                <BiLogoHtml5 size='3rem' color='darkorange'/>
+                                    <p className='caption'>
+                                    HTML5
+                                    </p>
+                                </div>
+                                <div className='iconic'>
+                                    <BiLogoCss3 size='3rem' color='blue'/>
+                                    <p className='caption'>
+                                        CSS
+                                    </p>
+                                </div>
+                                <div className='iconic'>
+                                    <BiLogoJavascript size='3rem' color='yellow'/>
+                                    <p className='caption'>
+                                        JavaScript
+                                    </p>
+                                </div>
+                            </div>
+                            <div className='iconic-container'>
+                                <div className='iconic'>
+                                    <BiLogoReact size='3rem' color='lightblue'/>
+                                    <p className='caption'>
+                                        React
+                                    </p>
+                                </div>
+                                <div className='iconic'>
+                                    <BiLogoBootstrap size='3rem' color='purple'/>
+                                    <p className='caption'>
+                                        Bootstrap
+                                    </p>
+                                </div>
+                            </div>
+                            <div className='buttonZone'>
+                    <button className='btn' onClick={() => window.open('https://bejewelled-rugelach-0fb05e.netlify.app/')}>Live Code!</button>
+                    </div>
+                        </Card.Body>
+                    </Card>
                     </div>
                 </Col>
             </Row>
