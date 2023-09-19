@@ -196,6 +196,14 @@ const Projects = () => {
                     </div>
                 </Col>
             </Row>
+            <Row>
+                <Col sm={12} md={12} lg={12}>
+                    <h1 className='projects'><span>Bonus!</span></h1>
+                    <div className='buttonZone'>
+                    <button className='btn' onClick={() => window.open('https://aesthetic-boba-d3a67c.netlify.app/')}>Previous Portfolio!</button>
+                    </div>
+                </Col>
+            </Row>
         </Container>
 </Fade>
     </div>
