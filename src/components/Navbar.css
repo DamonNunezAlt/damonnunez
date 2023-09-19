@@ -34,5 +34,12 @@ letter-spacing: .1rem;
     transform: scale(1.2);
 }
 
+@media screen and (max-width:992px) {
+    .myName {
+        display: flex;
+        justify-content: center;
+    }
+}
+
 
 /* Add or modify these styles in your CSS file */

@@ -38,9 +38,9 @@ const Contact = () => {
         </Container>
         <Container>
         <Row>
-                <Col sm={12} md={12} lg={12}>
+                <Col sm={12} md={12} lg={12} className='mobileExclusive'>
                     <h1 className='contact'>
-                        <span>
+                        <span className='specialSpan'>
                             Thanks for visiting!👋
                         </span>
                     </h1>

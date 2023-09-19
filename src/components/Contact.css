@@ -44,3 +44,17 @@
     font-family: sans-serif;
     font-weight: 800;
 }
+@media screen and (max-width:770px){
+    .hiddenCaption {
+        font-size:0.8rem;
+    }
+    .iconic {
+        width:auto;
+    }
+    .mobileExclusive {
+        margin-top:-3rem;
+    }
+    .specialSpan {
+        font-size: 1.4rem;
+    }
+}

@@ -86,4 +86,16 @@
     font-weight: 800;
 
 }
-  
+  @media screen and (max-width:1200px) {
+    .iconic {
+        margin-right: -14px;
+    }
+  }
+  @media screen and (max-width:992px) {
+    .outerBorder {
+        margin:3rem auto;
+    }
+    .projectCardBorder{
+        margin:3rem auto;
+    }
+  }

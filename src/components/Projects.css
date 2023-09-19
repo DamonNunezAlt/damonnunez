@@ -91,8 +91,7 @@
     justify-content: space-around; /* Use flexbox to arrange items horizontally */
   }
   
-  .iconic {
-    margin-right: 10px; /* Add some margin between icon-caption pairs */
+  .iconic { /* Add some margin between icon-caption pairs */
     text-align: center;/* Center align the text */
 
   }
@@ -123,4 +122,9 @@
  .projectBtn:hover {
      background-color: white; /* Change the background color on hover */
      transform: translateY(-10px);
+ }
+ @media screen and(max-width:1200px) {
+    .iconic {
+        margin-right: -14px;
+    }
  }
