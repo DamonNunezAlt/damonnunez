@@ -16,7 +16,7 @@ const Home = () => {
                         <strong>
                         Greetings! I'm a full-stack developer with a background in <a href='https://codenation.org/' target='_blank'> Code Nation </a> and the<a href='https://www.marcylabschool.org/' target='_blank'> Marcy Lab School.</a> I specialize in crafting user-friendly web experiences, from front-end designs to robust back-end solutions. Excited to take on new challenges in the world of development! </strong>
 </p>
-                <button id='contact' className='btn'>Contact Me!</button>
+                <button className='btn'>Contact Me!</button>
                 </div>
             </Col>
             <Col sm={12} md={12} lg={4}>

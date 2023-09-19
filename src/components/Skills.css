@@ -5,7 +5,7 @@
     --main-color:rgb(0, 187, 250);
 }
 .skillsSection {
-    height:40rem;
+    height:auto;
     background-color: var(--second-bg-color);
 }
 .skills {
