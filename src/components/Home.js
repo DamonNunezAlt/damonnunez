@@ -5,7 +5,7 @@ import { Fade } from 'react-reveal'
 const Home = () => {
   return (
   <div className='homeSection'>
-    <Fade top distance='20%' duration = {1500} >
+    <Fade top distance='10%' duration = {1500} >
     <Container>
         <Row>
             <Col sm={12} md={12} lg={8}>

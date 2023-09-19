@@ -5,7 +5,7 @@ import {Fade} from 'react-reveal'
 const AboutMe = () => {
   return (
     <div className='aboutMeSection'>
-      <Fade top distance='20%' duration = {1300} >
+      <Fade top distance='10%' duration = {1300} >
         <Container>
             <Row>
                 <Col sm={12} md={12} lg={12}>

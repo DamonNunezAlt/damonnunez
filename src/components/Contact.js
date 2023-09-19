@@ -8,7 +8,7 @@ import {BsLinkedin} from 'react-icons/bs'
 const Contact = () => {
   return (
     <div className='contactSection'>
-        <Fade top distance='20%' duration = {1300} >
+        <Fade top distance='10%' duration = {1300} >
         <Container>
             <Row>
                 <Col sm={12} md={12} lg={12}>
