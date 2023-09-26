@@ -14,8 +14,7 @@ const Home = () => {
                     <h3 className='headerCaption'> Full Stack Developer </h3>
                     <p className='paragraph'>
                         <strong>
-                        Greetings! I'm a full-stack developer with a background in <a href='https://codenation.org/' target='_blank'> Code Nation </a> and the<a href='https://www.marcylabschool.org/' target='_blank'> Marcy Lab School.</a> I specialize in crafting user-friendly web experiences, from front-end designs to robust back-end solutions. Excited to take on new challenges in the world of development! </strong>
-</p>
+                        Greetings! I'm a full-stack developer with expertise in JavaScript, React, HTML5, and CSS. I specialize in creating user-friendly web experiences, ranging from front-end designs to robust back-end solutions. Excited to tackle new challenges in the world of development! </strong></p>
                 <button className='btn'><a className='homeLink' href='#contact'>Contact Me!</a></button>
                 </div>
             </Col>
