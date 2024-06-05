@@ -189,7 +189,7 @@ const Projects = () => {
                                 </div>
                             </div>
                             <div className='buttonZone'>
-                    <button className='btn' onClick={() => window.open('https://bejewelled-rugelach-0fb05e.netlify.app/')}>Live Code!</button>
+                    <button className='btn' onClick={() => window.open('https://dreamycafealt.netlify.app/')}>Live Code!</button>
                     </div>
                         </Card.Body>
                     </Card>
