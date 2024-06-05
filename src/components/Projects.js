@@ -139,7 +139,7 @@ const Projects = () => {
 
 
                             <div className='buttonZone'>
-                    <button className='btn' onClick={() => window.open('https://brilliant-biscotti-6fe10d.netlify.app/')}>Live Code!</button>
+                    <button className='btn' onClick={() => window.open('https://lighthearted-boba-ae20c5.netlify.app/')}>Live Code!</button>
                     </div>
                         </Card.Body>
                     </Card>
